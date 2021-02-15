@@ -1,0 +1,215 @@
+/*
+Theme Name:     Neve Child
+Theme URI:      https://themeisle.com/themes/neve/
+Template: neve
+Author:         ThemeIsle
+Author URI:     https://themeisle.com
+Description:    Neve is a super fast, easily customizable, multi-purpose theme. It’s perfect for blogs, small business, startups, agencies, firms, e-commerce shops (WooCommerce storefront) as well as personal portfolio sites and most types of projects. A fully AMP optimized and responsive theme, Neve will load in mere seconds and adapt perfectly on any viewing device. While it is lightweight and has a minimalist design, the theme is highly extendable, it has a highly SEO optimized code, resulting in top rankings in Google search results. Neve works perfectly with Gutenberg and the most popular page builders (Elementor, Brizy, Beaver Builder, Visual Composer, SiteOrigin, Divi). Neve is also WooCommerce ready, responsive, RTL & translation ready. Look no further. Neve is the perfect theme for you!
+Version:        1.0.0
+License:        GNU General Public License v2 or later
+License URI:    http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:    neve
+Tags: blog, custom-logo, e-commerce, rtl-language-support, post-formats, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles
+*/
+.pb-20 {
+	padding-bottom: 20px;
+}
+.wp-block-woocommerce-price-filter {
+	width: 30%;
+	float: left;
+	padding-right: 20px;
+}
+
+.wp-block-woocommerce-all-products.wc-block-all-products {
+	float: none;
+	clear: both;
+	padding-top: 20px;
+	width: 100%;
+}
+
+.wp-block-woocommerce-product-search.pb-20 {
+	float: left;
+	width: 30%;
+	padding-left: 20px;
+	padding-bottom: 0;
+}
+
+.nv-content-wrap.entry-content {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.wc-block-product-categories.is-dropdown {
+	width: 30%;
+}
+
+.wc-block-product-categories__dropdown,
+.wc-block-product-categories select {
+	width: 100%;
+}
+
+.nv-content-wrap.entry-content .woocommerce {
+	width: 100%;
+	max-width: 100%;
+}
+
+.nv-content-wrap.entry-content .woocommerce form {
+	max-width: 100%;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	border: 1px solid #e6e6e6;
+	padding-bottom: 20px;
+	border-radius: 0px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+span.price {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.wc-block-components-price-slider__range-input-progress {
+	--track-background: linear-gradient(90deg, transparent var(--low), #0b5d6d 0, #0b5d6d var(--high), transparent 0)
+		no-repeat 0 100%/100% 100%;
+}
+
+li.product.type-product {
+	text-align: center;
+	transition: all 300ms ease;
+}
+
+a.add-to-cart.button,
+.add_to_cart_button {
+	opacity: 0;
+	transition: all 300ms ease;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.add_to_cart_button {
+	font-size: .8em;
+	font-weight: 600;
+	padding: 8px 12px;
+}
+
+/* li.wc-block-grid__product.wc-block-layout {
+    margin-left: 8px;
+    margin-right: 8px;
+    border: 0;
+} */
+
+li.product.type-product:hover a.add-to-cart.button,
+.wc-block-grid__product:hover .add_to_cart_button {
+	opacity: 1;
+	transition: all 300ms ease;
+	height: initial;
+	overflow: visible;
+	line-height: initial;
+	font-size: 12px;
+	padding: 10px;
+}
+.woocommerce ul.products li.product .star-rating {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.page-template-shop-template main#content {
+	padding-top: 50px;
+}
+
+.woocommerce.single .entry-summary > form.cart {
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.woocommerce div.product form.cart div.quantity {
+	margin-bottom: 20px;
+}
+
+button.single_add_to_cart_button.button.alt {
+	margin-right: 10px;
+}
+
+.woocommerce div.product .woocommerce-product-rating {
+	margin-bottom: 20px;
+}
+
+.woocommerce div.product form.cart .button {
+	float: left;
+	vertical-align: middle;
+	align-self: flex-start;
+}
+
+a.buy-now.button {
+	position: absolute;
+	bottom: 0;
+	left: 115px;
+}
+
+.woocommerce a.remove {
+	padding-bottom: 5px !important;
+}
+
+.thumb {
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+
+li.product:hover .thumb img {
+	transform: scale(1.2);
+}
+
+.thumb img {
+	transition: all 300ms ease;
+}
+
+.woocommerce ul.products li.product a img {
+	margin: 0;
+}
+
+.neve-main .elementor-text-editor ol,
+.neve-main .elementor-text-editor ul {
+	padding-left: 0;
+}
+
+form.woocommerce-form.woocommerce-form-register.register {
+	margin-top: 0;
+}
+
+.container.shop-container .row {
+	display: flex;
+	flex-direction: column;
+}
+
+.nv-blog-sidebar {
+	padding: 0 15px;
+	padding-top: 50px;
+}
+
+div#woocommerce_product_categories-2,
+#woocommerce_price_filter-2,
+#woocommerce_product_search-2 {
+	padding-bottom: 0;
+	margin-bottom: 0;
+	width: 25%;
+}
+
+aside#secondary {
+	display: flex;
+	justify-content: space-between;
+}

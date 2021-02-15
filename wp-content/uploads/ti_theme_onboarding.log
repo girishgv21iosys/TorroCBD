@@ -1,0 +1,19 @@
+[04/Feb/2021:12:57:57] (I): WordPress Instance Info:
+[04/Feb/2021:12:57:57] (I): Home URL : http://localhost/torrocbd2
+[04/Feb/2021:12:57:57] (I): Site URL : http://localhost/torrocbd2
+[04/Feb/2021:12:57:57] (I): WordPress Version : 5.6.1
+[04/Feb/2021:12:57:57] (I): Onboarding Version : 1.1.2
+[04/Feb/2021:12:57:57] (I): Multisite : No
+[04/Feb/2021:12:57:57] (I): Server Info : Apache/2.4.41 (Win64) OpenSSL/1.1.1c PHP/7.4.2
+[04/Feb/2021:12:57:57] (I): PHP Version : 7.4.2
+[04/Feb/2021:12:57:57] (I): HTTPS : No
+[04/Feb/2021:12:57:57] (I): PHP Max Execution Time : 1200
+[04/Feb/2021:12:57:57] (I): PHP Max Input Vars : 1000
+[04/Feb/2021:12:57:57] (I): Max Upload Size : 419430400
+[04/Feb/2021:12:57:57] (I): Plugins:
+[04/Feb/2021:12:57:57] (I): [PLUGIN] Elementor : v3.1.1 (Elementor.com)
+[04/Feb/2021:12:57:57] (I): [PLUGIN] PHP Code Widget : v2.3 (Otto)
+[04/Feb/2021:12:57:57] (I): [PLUGIN] Show Current Template : v0.4.3 (JOTAKI Taisuke)
+[04/Feb/2021:12:57:57] (I): [PLUGIN] Show Hooks : v0.1.4 (rafiq91)
+[04/Feb/2021:12:57:57] (I): [PLUGIN] Templates Patterns Collection : v1.1.2 (ThemeIsle)
+[04/Feb/2021:12:57:57] (I): [PLUGIN] WooCommerce : v4.9.2 (Automattic)
